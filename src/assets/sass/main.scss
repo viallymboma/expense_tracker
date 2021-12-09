@@ -1,0 +1,19 @@
+body {
+    background-color: black!important;
+    display: grid;
+    justify-content: center;
+
+    .Main {
+        background-color: aqua;
+        display: grid;
+        justify-content: center;
+
+        .Container {
+            background-color: azure;
+
+            .IncomeExpensesDisplayContainer {
+                
+            }
+        }
+    }
+}

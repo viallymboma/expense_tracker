@@ -1,0 +1,10 @@
+body {
+  background-color: black !important;
+  display: grid;
+  justify-content: center; }
+  body .Main {
+    background-color: aqua;
+    display: grid;
+    justify-content: center; }
+    body .Main .Container {
+      background-color: azure; }
