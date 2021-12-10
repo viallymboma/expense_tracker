@@ -1,11 +1,12 @@
 import './assets/css/style.css';
 import Main from './components/Main'
+import { GlobalProvider } from './components/context/GlobalContext';
 
 function App() {
   return (
-    <div className="Main">
+    <GlobalProvider>
       <Main />
-    </div>
+    </GlobalProvider>
   );
 }
 

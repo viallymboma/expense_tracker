@@ -4,7 +4,9 @@ import React from "react";
 const Title = () => {
 
     return (
-        <h2>Expense Tracker</h2>
+        <div className="TitleDiv">
+            <h2>Expense Tracker</h2>
+        </div>
     )
 }
 
